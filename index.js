@@ -7,7 +7,7 @@ const port = 3000;
 
 // Define a route
 app.get('/', (req, res) => {
-res.send('Congratulations! First CICD with AWS ECS');
+res.send('Congratulations! First CICD with AWS ECS.It works!');
 });
 
 
