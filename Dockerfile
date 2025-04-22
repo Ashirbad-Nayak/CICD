@@ -1,5 +1,5 @@
 # Dockerfile
-FROM --platform=linux/amd64 node:latest
+FROM node:latest
 WORKDIR /app
 COPY . /app
 RUN npm install
